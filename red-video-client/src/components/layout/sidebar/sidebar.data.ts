@@ -1,4 +1,65 @@
 import type { ISidebarItem } from './sidebar.types'
-import { Compass } from 'lucide-react'
+import {
+	CircleAlert,
+	CirclePlay,
+	Compass,
+	Flame,
+	FolderHeart,
+	Gamepad2,
+	History,
+	Settings,
+	TvMinimalPlay
+} from 'lucide-react'
 
-export const SIDEBAR_DATA: ISidebarItem[] = [{ icon: Compass, label: 'Explore', link: '' }]
+import { PUBLIC_PAGE } from '@/config/public-page.config'
+
+export const SIDEBAR_DATA: ISidebarItem[] = [
+	{
+		icon: Compass,
+		label: 'Explore',
+		link: PUBLIC_PAGE.HOME
+	},
+	{
+		icon: Flame,
+		label: 'Trending',
+		link: PUBLIC_PAGE.TRENDING
+	},
+	{
+		icon: Gamepad2,
+		label: 'Video games',
+		link: PUBLIC_PAGE.VIDEO_GAMES
+	},
+	{
+		icon: TvMinimalPlay,
+		label: 'My channel',
+		link: PUBLIC_PAGE.MY_CHANNEL
+	},
+	{
+		icon: CirclePlay,
+		label: 'Subscription',
+		link: PUBLIC_PAGE.SUBSCRIPTION
+	},
+	{
+		icon: History,
+		label: 'History',
+		link: PUBLIC_PAGE.HISTORY
+	},
+	{
+		icon: FolderHeart,
+		label: 'Liked videos',
+		link: PUBLIC_PAGE.LIKED_VIDEOS
+	}
+]
+
+export const MORE_SIDEBAR_DATA: ISidebarItem[] = [
+	{
+		icon: Settings,
+		label: 'Settings',
+		link: PUBLIC_PAGE.SETTINGS
+	},
+	{
+		icon: CircleAlert,
+		label: 'Send feedback',
+		link: PUBLIC_PAGE.FEEDBACK
+	}
+]

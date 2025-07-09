@@ -7,7 +7,7 @@ export interface ISidebarItem {
 	isBottomBorder?: boolean
 }
 
-export interface ISidebarSubscription {
+export interface ISidebarSubItem {
 	label: string
 	link: string
 	avatar: string
