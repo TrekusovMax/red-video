@@ -4,13 +4,13 @@ export const SidebarSubscriptions = () => {
 	return (
 		<div>
 			<ul>
-				<SubItem
+				{/* <SubItem
 					item={{
 						avatar: 'https://avatars.githubusercontent.com/u/97165289',
 						label: 'Demo',
 						link: '/'
 					}}
-				/>
+				/> */}
 				{/* {menu.map(menuItem => (
 					<SubItem
 						item={menuItem}

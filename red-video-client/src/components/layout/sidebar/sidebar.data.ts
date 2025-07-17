@@ -27,7 +27,8 @@ export const SIDEBAR_DATA: ISidebarItem[] = [
 	{
 		icon: Gamepad2,
 		label: 'Video games',
-		link: PUBLIC_PAGE.VIDEO_GAMES
+		link: PUBLIC_PAGE.VIDEO_GAMES,
+		isBottomBorder: true
 	},
 	{
 		icon: TvMinimalPlay,
@@ -47,7 +48,8 @@ export const SIDEBAR_DATA: ISidebarItem[] = [
 	{
 		icon: FolderHeart,
 		label: 'Liked videos',
-		link: PUBLIC_PAGE.LIKED_VIDEOS
+		link: PUBLIC_PAGE.LIKED_VIDEOS,
+		isBottomBorder: true
 	}
 ]
 
